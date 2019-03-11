@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dW:/ECE243/Design_Files_1/part1.Verilog/proc/modelSim
+vdec3to8
+Z0 !s110 1548701102
+!i10b 1
+!s100 kl=BVi3hiD>8VlM9OiaiS1
+I05oAZ=`Kf<UK<>4JUPhh62
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dW:/ECE243/Design_Files_1/part1.Verilog/proc/ModelSim
+Z3 w1548100533
+Z4 8../proc.v
+Z5 F../proc.v
+L0 169
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1548701101.000000
+Z8 !s107 ../proc.v|
+Z9 !s90 -reportprogress|300|../proc.v|
+!i113 1
+Z10 tCvgOpt 0
+vproc
+R0
+!i10b 1
+!s100 deoIGVO?E85?8SO=U[mjU3
+IYh6i`:Y?ln;CfBkcM2>Ag3
+R1
+R2
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregn
+R0
+!i10b 1
+!s100 <=9SVP3Ol3JP6<IY3m7ng0
+Im6Y9VULi8j0VKS>:;[0Si0
+R1
+R2
+R3
+R4
+R5
+L0 193
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtestbench
+!s110 1548701103
+!i10b 1
+!s100 :G]4Z6>4Co_1HUc[4ZM3g2
+IaNRfX3cozndihJRi3jC_?0
+R1
+R2
+w1548699788
+8testbench.v
+Ftestbench.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1548701102.000000
+!s107 testbench.v|
+!s90 -reportprogress|300|testbench.v|
+!i113 1
+R10

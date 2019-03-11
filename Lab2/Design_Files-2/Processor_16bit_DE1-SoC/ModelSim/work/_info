@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dW:/ECE243/lab2/Design_Files-2/Processor_16bit_DE1-SoC/ModelSim
+vdec3to8
+Z1 !s110 1549306240
+!i10b 1
+!s100 WgCXZQOSSb^OVzFmKLe@B0
+IDP=@MM_IFWk<dgg>KcnZG3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1549231212
+Z4 8../proc.v
+Z5 F../proc.v
+L0 279
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1549306239.000000
+Z8 !s107 ../seg7_scroll.v|../proc.v|../part3.v|../inst_mem.v|../flipflop.v|
+Z9 !s90 -reportprogress|300|../flipflop.v|../inst_mem.v|../part3.v|../proc.v|../seg7_scroll.v|
+!i113 1
+Z10 tCvgOpt 0
+vflipflop
+Z11 !s110 1549306239
+!i10b 1
+!s100 4H2K_V>f3BSlSog@_SfWf0
+If;>LCi5HH2UkIZ<N0]YNc1
+R2
+R0
+Z12 w1548977541
+8../flipflop.v
+F../flipflop.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vinst_mem
+R11
+!i10b 1
+!s100 K4RmZIQj0T6D3l>Szck240
+Ia4X7][PRd9=TRP4J;ZKQ22
+R2
+R0
+R12
+8../inst_mem.v
+F../inst_mem.v
+L0 39
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vpart3
+R11
+!i10b 1
+!s100 GX[[@:6JFkBAa1Z;LZmhm0
+IZ5iEE^Ngzi;D7[@QUBoWF2
+R2
+R0
+w1549222908
+8../part3.v
+F../part3.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vpc_count
+R1
+!i10b 1
+!s100 G96`T27I;X4MM>25CG>VZ2
+IK>QSCg1HS8n:P;CZg:ej61
+R2
+R0
+R3
+R4
+R5
+L0 264
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vproc
+R11
+!i10b 1
+!s100 G?>7N20CU;_Jcb`Cgk6Oa2
+I57@@hQZWA3jzOBIVkeenz3
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregn
+R1
+!i10b 1
+!s100 ONJ^GhF4kMDm5Q6RJFDaR3
+IO7LJCoXQ<XZKBYM8?QT483
+R2
+R0
+R3
+R4
+R5
+L0 303
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vregne
+R1
+!i10b 1
+!s100 87^e>Dn3]CKV4LL9HCfM[2
+IaH6l=D]nNmHTl[No_me<X2
+R2
+R0
+Z13 w1548974473
+Z14 8../seg7_scroll.v
+Z15 F../seg7_scroll.v
+L0 28
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vseg7_scroll
+R1
+!i10b 1
+!s100 3aa`GXh6MMYWfDm21A:Db3
+I?8J^YIbk3:ok>6@Q[HhPc1
+R2
+R0
+R13
+R14
+R15
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+vtestbench
+!s110 1549306241
+!i10b 1
+!s100 T_kbi4h:D?2D4hOohS94@0
+Ijbg5Zh2FzC@e=zP]ZFL?b1
+R2
+R0
+w1548977542
+8testbench.v
+Ftestbench.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1549306240.000000
+!s107 testbench.v|
+!s90 -reportprogress|300|testbench.v|
+!i113 1
+R10

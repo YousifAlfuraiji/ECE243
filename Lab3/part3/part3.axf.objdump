@@ -1,0 +1,71 @@
+
+W:/ECE243/lab3/part3/part3.axf:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00000000 <__cs3_interrupt_vector>:
+/* Program that finds the largest number in a list of integers	*/
+
+            .text                   // executable code follows
+            .global _start                  
+_start:                             
+            MOV     R4, #RESULT     // R4 points to result location
+   0:	e3a04040 	mov	r4, #64	; 0x40
+            LDR     R0, [R4, #4]    // R0 holds the number of elements in the list
+   4:	e5940004 	ldr	r0, [r4, #4]
+            MOV     R1, #NUMBERS    // R1 points to the start of the list
+   8:	e3a01048 	mov	r1, #72	; 0x48
+            BL      LARGE           
+   c:	eb000001 	bl	18 <LARGE>
+
+00000010 <DONE>:
+DONE:		STR     R0, [R4]        // R0 holds the subroutine return value
+  10:	e5840000 	str	r0, [r4]
+
+00000014 <END>:
+
+END:        B       END             
+  14:	eafffffe 	b	14 <END>
+
+00000018 <LARGE>:
+/* Subroutine to find the largest integer in a list
+ * Parameters: R0 has the number of elements in the lisst
+ *             R1 has the address of the start of the list
+ * Returns: R0 returns the largest item in the list
+ */
+LARGE:      SUBS    R0, #1	    // decrement the loop counter
+  18:	e2500001 	subs	r0, r0, #1
+			BEQ	    DONE		    // if the result is equal to 0, branch (MOVEQ pc, LR)
+  1c:	0afffffb 	beq	10 <DONE>
+			ADD     R1, #4
+  20:	e2811004 	add	r1, r1, #4
+			LDR	    R5, [R1]	    // R5 holds the next number in the list
+  24:	e5915000 	ldr	r5, [r1]
+			LDR     R6, [R4]		// R6 holds the largest number so far
+  28:	e5946000 	ldr	r6, [r4]
+			CMP     R6, R5        // check if larger number is found
+  2c:	e1560005 	cmp	r6, r5
+			BGE     LARGE
+  30:	aafffff8 	bge	18 <LARGE>
+			MOV     R4, R1
+  34:	e1a04001 	mov	r4, r1
+			MOV		R0, R1
+  38:	e1a00001 	mov	r0, r1
+			B       LARGE
+  3c:	eafffff5 	b	18 <LARGE>
+
+00000040 <RESULT>:
+  40:	00000000 	.word	0x00000000
+
+00000044 <N>:
+  44:	00000007 	.word	0x00000007
+
+00000048 <NUMBERS>:
+  48:	00000004 	.word	0x00000004
+  4c:	00000005 	.word	0x00000005
+  50:	00000003 	.word	0x00000003
+  54:	00000006 	.word	0x00000006
+  58:	00000001 	.word	0x00000001
+  5c:	00000008 	.word	0x00000008
+  60:	00000002 	.word	0x00000002
